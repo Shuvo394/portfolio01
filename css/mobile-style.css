@@ -1,0 +1,60 @@
+/* Tablet View */
+@media (max-width: 1024px) {
+    .home-wrapper .home-text .home-left-box h5 {
+    }
+    
+    .home-wrapper .home-text .home-left-box h1 {
+        color: #42C2FF;
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+    
+    .home-wrapper .home-text .home-left-box h3 {
+        font-size: 20px;
+    }
+
+    .home-wrapper .home-text .home-left-box .cv-btn {
+        margin-top: 1.5rem;
+        padding: 10px 20px;
+    }
+
+    .home-wrapper .home-text .home-right-box {
+        text-align: center;
+    }
+
+    .about .about-text-box .about-text {
+        padding: 13vmin 5vmin 8vmin 10vmin;
+    }
+
+
+
+}
+
+/* Large Mobile View */
+@media (max-width: 767px) {
+    .about .about-text-box .about-text {
+        position: static;
+        margin-top: 2rem;
+    }
+
+    footer .contact .contact-column {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-wrapper .home-text .home-left-box h5 {
+        font-size: 14px;
+    }
+    
+    .home-wrapper .home-text .home-left-box h1 {
+        color: #42C2FF;
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+    }
+    
+    .home-wrapper .home-text .home-left-box h3 {
+        font-size: 16px;
+    }
+}
+
